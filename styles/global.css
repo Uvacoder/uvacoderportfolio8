@@ -1,0 +1,19 @@
+@tailwind components;
+
+@layer components {
+  .image {
+    @apply h-6 object-contain cursor-pointer;
+  }
+  .profile-button {
+    @apply mt-5 ml-2 px-7 py-2 border border-gray-800 font-medium hover:border-none hover:bg-gray-800 hover:text-white;
+  }
+  .hero-main {
+    @apply h-screen bg-white md:h-[30vh] lg:h-screen lg:flex lg:justify-between;
+  }
+  .hero-links {
+    @apply absolute right-0 p-5 space-y-5 md:top-32 md:space-y-3 lg:left-0 lg:top-64 lg:space-y-6 lg:border-r lg:border-gray-600 lg:w-16;
+  }
+  .skills-image {
+    @apply h-16 bg-gray-100 object-contain;
+  }
+}
