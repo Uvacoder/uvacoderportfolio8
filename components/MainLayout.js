@@ -1,10 +1,14 @@
-import InfoSection from "./InfoSection";
+import React from "react";
 import Intro from "./Intro";
+import Projects from "./Projects";
+import Services from "./Services";
 
 const MainLayout = () => {
   return (
-    <main className="max-w-7xl m-auto p-5">
+    <main className="">
       <Intro />
+      <Services />
+      <Projects />
     </main>
   );
 };

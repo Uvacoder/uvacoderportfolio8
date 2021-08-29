@@ -8,8 +8,8 @@ const Hero = () => {
           <h1 className="text-8xl font-semibold text-gray-700 lg:text-[7rem]">
             Pavan <span className="font-thin text-gray-600">Rathod.</span>{" "}
           </h1>
-          <p className="text-2xl ml-2">Full Stack Developer</p>
-          <p className="text-xl ml-2">Bangalore, India</p>
+          <p className="text-2xl ml-2 font-mono">Full Stack Developer</p>
+          <p className="text-xl ml-2 font-mono">Bangalore, India</p>
           <button className="profile-button">View Profile</button>
         </div>
 
