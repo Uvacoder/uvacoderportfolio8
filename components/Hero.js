@@ -10,7 +10,16 @@ const Hero = () => {
           </h1>
           <p className="text-2xl ml-2 font-mono">Full Stack Developer</p>
           <p className="text-xl ml-2 font-mono">Bangalore, India</p>
-          <button className="profile-button">View Profile</button>
+          <div className="flex items-center space-x-2 ml-2">
+            <img src="/images/Phone.png" alt="" className="h-5" />
+            <p>+91 8310525962</p>
+          </div>
+          <div className="flex items-center space-x-2 ml-2">
+            <img src="/images/Gmail.png" alt="" className="h-5" />
+            <Link href="mailto:#">
+              <p className="cursor-pointer">pavan.pattinson@gmail.com</p>
+            </Link>
+          </div>
         </div>
 
         <div className="hero-links">

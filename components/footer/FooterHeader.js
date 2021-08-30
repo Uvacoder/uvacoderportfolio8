@@ -1,11 +1,13 @@
+import Link from "next/link";
+
 const FooterHeader = () => {
   return (
     <>
       <div className="space-y-4">
         <img src="/images/LogoWhite.png" alt="" />
-        <p className="text-gray-400 text-base lg:text-lg font-mono ml-1">
-          We are technology experts who are passionately excited about the
-          latest digital trends in web technologies.
+        <p className="text-gray-400 text-base lg:text-lg font-mono leading-loose  ml-1">
+          I am technology experts who are passionately excited about the latest
+          digital trends in web technologies.
         </p>
       </div>
       <div className="mt-4 text-white">
@@ -30,9 +32,11 @@ const FooterHeader = () => {
           <h1 className="text-lg font-mono text-indigo-300 capitalize">
             EMAILS
           </h1>
-          <p className="text-base font-mono text-gray-200">
-            pavan.pattinson@gmail.com
-          </p>
+          <Link href="mailto:#">
+            <p className="text-base font-mono cursor-pointer text-gray-200">
+              pavan.pattinson@gmail.com
+            </p>
+          </Link>
         </div>
       </div>
     </>
