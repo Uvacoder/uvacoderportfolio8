@@ -8,7 +8,7 @@ const Trends = () => {
         <ArrowDownIcon className="h-7 animate-bounce text-indigo-500" />
       </div>
       <div className="md:grid md:grid-cols-3 items-center gap-5 px-3 py-3 space-y-3 lg:space-y-0">
-        <div className="rounded-md bg-white py-3">
+        <div className="rounded-md bg-white py-3 border border-indigo-600 sm:border-none">
           <h1 className="text-center text-lg font-mono">Front-end</h1>
 
           <div className="flex items-center flex-col lg:flex-row space-y-3 lg:justify-around p-7 space-x-4">
@@ -16,7 +16,7 @@ const Trends = () => {
             <img src="/images/skills/Next.png" alt="" className=" h-14" />
           </div>
         </div>
-        <div className="bg-white shadow-sm rounded-md py-3">
+        <div className="bg-white border border-indigo-600 sm:border-none shadow-sm rounded-md py-3">
           <h1 className="text-center text-lg font-mono">Back-end</h1>
 
           <div className="flex flex-col lg:flex-row space-y-3 justify-around items-center p-7 space-x-4">
@@ -28,7 +28,7 @@ const Trends = () => {
             <img src="/images/skills/Py.png" alt="" className=" h-14" />
           </div>
         </div>
-        <div className="rounded-md bg-white py-3">
+        <div className="rounded-md border border-indigo-600 sm:border-none bg-white py-3">
           <h1 className="text-center text-lg font-mono">Databases</h1>
 
           <div className="flex flex-col lg:flex-row space-y-3 justify-between items-center p-7 space-x-4">

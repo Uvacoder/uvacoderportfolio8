@@ -24,18 +24,18 @@ const Hero = () => {
 
         <div className="hero-links">
           <Link href="https://github.com/Pavanarathod">
-            <img src="/images/GitOne.png" alt="" className="image" />
+            <img src="/images/GitOne.png" alt="Git" className="image" />
           </Link>
           <Link href="https://www.linkedin.com/in/pavan-kumar-dr-b51b2a1b6/">
-            <img src="/images/LinkedinOne.png" alt="" className="image" />
+            <img src="/images/linkedin.png" alt="Link" className="image" />
           </Link>
 
           <Link href="https://twitter.com/Iam_PavanRathod">
-            <img src="/images/twitter.png" alt="" className="image" />
+            <img src="/images/twitter.png" alt="Twitter" className="image" />
           </Link>
 
           <Link href="https://www.instagram.com/pavan_rathod_13/">
-            <img src="/images/instagram.png" alt="" className="image" />
+            <img src="/images/instagram.png" alt="Insta" className="image" />
           </Link>
         </div>
       </div>
