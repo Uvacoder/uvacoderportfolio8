@@ -1,9 +1,9 @@
 const Skills = () => {
   return (
-    <section className="md:flex md:items-center bg-gray-50">
+    <section className="md:flex md:items-center bg-white pb-5">
       <div className="px-3 md:flex-[60%]">
         <h1 className="text-center mt-3 sm:mt-0 sm:mb-4 text-2xl lg:text-4xl lg:mb-5 font-mono">
-          Skills
+          Built With
         </h1>
         <div className="">
           <div className="text-center space-y-4 md:space-y-2 lg:mt-5">
@@ -50,7 +50,7 @@ const Skills = () => {
       </div>
       <div className="hidden md:inline-flex md:flex-[40%]">
         {" "}
-        <img src="/images/Skill.jpg" alt="" />
+        <img src="/images/Tower.jpg" alt="" />
       </div>
     </section>
   );

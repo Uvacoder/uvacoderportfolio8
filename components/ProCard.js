@@ -16,7 +16,11 @@ const ProCard = ({ img, title, gitlink, link }) => {
         <div className="flex items-center justify-between">
           <Link href={gitlink}>
             <div className="flex items-center space-x-2">
-              <img src="/images/GitTwo.png" alt="" className="h-5" />
+              <img
+                src="/images/GitTwo.png"
+                alt=""
+                className="h-5 cursor-pointer"
+              />
               <p className="text-sm font-mono cursor-pointer">code</p>
             </div>
           </Link>

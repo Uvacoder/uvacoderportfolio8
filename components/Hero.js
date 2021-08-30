@@ -5,8 +5,8 @@ const Hero = () => {
     <div className="hero-main">
       <div className="relative flex-1">
         <div className="p-3 space-y-4 lg:ml-60 lg:mt-36">
-          <h1 className="text-8xl font-semibold text-gray-700 lg:text-[7rem]">
-            Pavan <span className="font-thin text-gray-600">Rathod.</span>{" "}
+          <h1 className="text-8xl  text-gray-700 lg:text-[7rem]">
+            Pavan <span className="font-thin text-indigo-500">Rathod.</span>{" "}
           </h1>
           <p className="text-2xl ml-2 font-mono">Full Stack Developer</p>
           <p className="text-xl ml-2 font-mono">Bangalore, India</p>
