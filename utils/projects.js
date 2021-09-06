@@ -66,7 +66,21 @@ export const projectsItem = [
     id: 10,
     name: "Mr.Robot Portfolio",
     git: "https://github.com/Pavanarathod/portfolio",
-    link: "https://mr-robot.vercel.app/",
+    link: "https://mr-robot-six.vercel.app/",
     image: "/images/projects/Mrrobot.png",
+  },
+  {
+    id: 11,
+    name: "Andromeda Version 2",
+    git: "https://github.com/Pavanarathod/andromeda-with-nextjs-and-tmdb",
+    link: "https://andromeda-lake.vercel.app/",
+    image: "/images/projects/Andromeda v2.png",
+  },
+  {
+    id: 12,
+    name: "Fashionbook",
+    git: "https://github.com/Pavanarathod/fashionbook-shoping-app",
+    link: "https://fashionbook-shoping-app-3sf17b9e0-pavanarathod.vercel.app/",
+    image: "/images/projects/Fashion.png",
   },
 ];
